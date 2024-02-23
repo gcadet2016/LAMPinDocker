@@ -49,4 +49,6 @@ cd C:\Users\guigu\OneDrive\Dev\Esecad\Phase1\2-Front-end\5-Concepts_base_CSS\Exe
 rem Le dossier courant contient un dossier docker
 
 docker build -t lamp docker
+
+docker run -d -p 80:8080 --name ApacheSrv lamp 
 ```
